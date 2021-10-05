@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  color: white;
+  background-color: #051960;
+}
+
+.card {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid violet;
+  /* color: p */
+  background: black;
+  border-radius: 10px;
+  width: 40%;
+  min-height: 400px;
+  /* min-height: 100%; */
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    width: 90%;
+  }
+}

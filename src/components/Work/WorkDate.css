@@ -1,0 +1,33 @@
+.work-date {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  font-family: "BYekan";
+}
+
+.work-date__month {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0 20px;
+}
+
+.work-date__C, .work-date__S {
+  display: flex;
+  flex-direction: row;
+}
+
+.work-date__S {
+  direction: ltr;
+  align-self: flex-end;
+  color: khaki;
+}
+
+.work-date__S div::after {
+  content: " :\00a0";
+}
+
+.work-date__S div:last-child:after {
+  content: "";
+}
